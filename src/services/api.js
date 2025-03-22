@@ -31,6 +31,7 @@ export const filteredCharacter = async (query) => {
 
   try {
     while (nextUrl) {
+      //Döngü nextUrl değişkeni dolu olduğu sürece çalışır.
       // Bir sonraki URLden veriyi almak için GET isteği yapıldı
       const response = await axios.get(nextUrl);
 

@@ -48,6 +48,7 @@ const CharacterTable: React.FC<CharacterTableProps> = ({ data }) => {
   const totalPages = Math.ceil(data.length / itemsPerPage);
 
   const sortedData = React.useMemo(() => {
+    //useMemo sortedData değişkeninin her render işleminde yeniden hesaplanmasını önlemek için kullanılır.
     // Data'nın kopyasını oluşturuldu  orijinal veri setini bozmamak için
     const sortableItems = [...data];
     if (sortConfig !== null) {

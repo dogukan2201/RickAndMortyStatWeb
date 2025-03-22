@@ -15,6 +15,7 @@ export default function Home() {
   useEffect(() => {
     setLoading(true);
     if (filteredData.length > 0) {
+      //Filtre kullanılmışsa
       setCharacterData(filteredData);
       console.log(filteredData);
       setLoading(false);

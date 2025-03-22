@@ -38,7 +38,12 @@ const Filter = () => {
 
     const queryParams = new URLSearchParams();
     Object.entries(filters).forEach(([key, value]) => {
+      //filters içindeki dolu değerleri alır ve URL'de kullanılabilir bir formata dönüştürür (örneğin: name=Rick&status=Alive).
       if (value) {
+        if (key === "name") {
+          value = value.toLocaleLowerCase("tr-TR");
+          console.log(value);
+        }
         queryParams.append(key, value);
       }
     });
