@@ -1,51 +1,46 @@
-Rick & Morty Character Stats Web
-This project is a web application that uses the Rick and Morty API to filter and display character information. Users can access detailed data about the characters in the Rick and Morty universe and filter them to find the information they need.
+# Rick & Morty Character Stats Web
 
-Features
-Fetch character data using the Rick and Morty API.
+This project is a web application that utilizes the Rick and Morty API to filter and display character information. Users can explore detailed data about characters from the Rick and Morty universe with intuitive filtering and search features.
 
-A user interface that allows users to filter characters.
+## Features
+- **Fetch Character Data:** Utilizes the Rick and Morty API to access comprehensive character details.
+- **User Interface for Filtering:** Enables users to filter characters by various criteria.
+- **Detailed Character Information:** Displays key details such as name, species, status, origin, and more.
+- **Quick Search and Sorting:** Enhances user experience by providing efficient data sorting and search capabilities.
 
-View detailed information about each character (e.g., name, species, status, origin, etc.).
+## Technologies
+- **Frontend:** Next.js
+- **State Management:** React Context API
+- **Styling:** Tailwind CSS
+- **API:** Rick and Morty API
 
-Quick search and sorting features.
+## Installation
 
-Technologies
-Frontend: Next.js
+### Prerequisites
+Ensure you have **Node.js** and **npm** installed. If not, you can download them from the [Node.js official website](https://nodejs.org/).
 
-State Management: React Context API
+### Setup
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/dogukan2201/Rick-MortyStatWeb.git
+   ```
 
-Styling: Tailwind CSS
+2. Navigate to the project directory:
+   ```bash
+   cd case
+   ```
 
-API: Rick and Morty API
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
 
-Installation
-Prerequisites
-Node.js and npm must be installed. You can download and install Node.js from Node.js official website.
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-Setup
-Clone the repository to your local machine:
+5. The application will be running at **[http://localhost:3000](http://localhost:3000)**.
 
-bash
-Kopyala
-Düzenle
-git clone https://github.com/dogukan2201/Rick-MortyStatWeb.git
-Navigate to the project directory:
 
-bash
-Kopyala
-Düzenle
-cd Rick-MortyStatWeb
-Install the necessary dependencies:
 
-bash
-Kopyala
-Düzenle
-npm install
-Start the development server:
-
-bash
-Kopyala
-Düzenle
-npm run dev
-The application will be running at http://localhost:3000.
